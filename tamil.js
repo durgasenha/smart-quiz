@@ -4,7 +4,7 @@ let score = 0;
 let userAnswers = [];
 
 // Load Tamil Questions
-fetch("tamil.json")
+fetch("json/tamil.json"))
     .then(response => {
 
         if (!response.ok) {
