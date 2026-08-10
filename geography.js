@@ -3,73 +3,122 @@ let currentQuestion = 0;
 let score = 0;
 let userAnswers = [];
 
-// Load Geography Questions
+// Load Tamil Questions
 fetch("json/geography.json")
-.then(response => response.json())
-.then(data => {
-    questions = data;
-    userAnswers = new Array(questions.length).fill(null);
-    loadQuestion();
-})
-.catch(error => {
-    console.error("Error loading Geography questions:", error);
-});
+    .then(response => {
 
-// Display Question
+        if (!response.ok) {
+            throw new Error("tamil.json file not found");
+        }
+
+        return response.json();
+    })
+
+    .then(data => {
+
+        questions = data;
+
+        if (!Array.isArray(questions) || questions.length === 0) {
+            throw new Error("No questions found in tamil.json");
+        }
+
+        userAnswers = new Array(questions.length).fill(null);
+
+        loadQuestion();
+    })
+
+    .catch(error => {
+
+        console.error("Tamil Quiz Error:", error);
+
+        document.getElementById("question").innerHTML =
+            "Unable to load Tamil questions.";
+
+        document.getElementById("options").innerHTML =
+            "<p>Please check tamil.json file.</p>";
+    });
+
+
+// LOAD QUESTION
+
 function loadQuestion() {
 
+    if (questions.length === 0) {
+        return;
+    }
+
+    const questionData = questions[currentQuestion];
+
     document.getElementById("question").innerHTML =
-        (currentQuestion + 1) + ". " + questions[currentQuestion].question;
+        (currentQuestion + 1) + ". " + questionData.question;
 
-    let optionHTML = "";
+    let html = "";
 
-    questions[currentQuestion].options.forEach((option, index) => {
+    questionData.options.forEach((option, index) => {
 
         let checked = "";
 
-        if (userAnswers[currentQuestion] === index) {
+        if (userAnswers[currentQuestion] == index) {
             checked = "checked";
         }
 
-        optionHTML += `
-        <label class="option">
-            <input type="radio"
-                   name="option"
-                   value="${index}"
-                   ${checked}
-                   onchange="saveAnswer(${index})">
-            ${option}
-        </label>
+        html += `
+            <label class="option">
+
+                <input
+                    type="radio"
+                    name="answer"
+                    value="${index}"
+                    ${checked}
+                    onchange="saveAnswer(${index})"
+                >
+
+                ${option}
+
+            </label>
         `;
     });
 
-    document.getElementById("options").innerHTML = optionHTML;
+    document.getElementById("options").innerHTML = html;
 }
 
-// Save Answer
-function saveAnswer(index) {
-    userAnswers[currentQuestion] = index;
+
+// SAVE ANSWER
+
+function saveAnswer(answer) {
+
+    userAnswers[currentQuestion] = answer;
 }
 
-// Next Question
+
+// NEXT
+
 function nextQuestion() {
 
     if (currentQuestion < questions.length - 1) {
+
         currentQuestion++;
+
         loadQuestion();
     }
 }
 
-// Previous Question
+
+// PREVIOUS
+
 function previousQuestion() {
 
     if (currentQuestion > 0) {
+
         currentQuestion--;
+
         loadQuestion();
     }
 }
 
-// Submit Quiz
+
+// SUBMIT
+
 function submitQuiz() {
 
     score = 0;
@@ -77,17 +126,30 @@ function submitQuiz() {
     for (let i = 0; i < questions.length; i++) {
 
         if (userAnswers[i] == questions[i].answer) {
+
             score++;
         }
-
     }
 
-    const timerText = document.getElementById("timer").textContent;
+    const timerElement =
+        document.getElementById("timer");
 
-    localStorage.setItem("subject", "geography");
-    localStorage.setItem("subjectId", 5);
+    let timerText = "";
+
+    if (timerElement) {
+
+        timerText =
+            timerElement.textContent;
+    }
+
+    localStorage.setItem("subject", "Tamil");
+
+    localStorage.setItem("subjectId", "1");
+
     localStorage.setItem("score", score);
+
     localStorage.setItem("total", questions.length);
+
     localStorage.setItem("time", timerText);
 
     window.location.href = "result.html";
