@@ -3,88 +3,153 @@ let currentQuestion = 0;
 let score = 0;
 let userAnswers = [];
 
-// Load JSON
+// Load Tamil Questions
 fetch("json/physics.json")
-.then(response => response.json())
-.then(data => {
-    questions = data;
-    userAnswers = new Array(questions.length).fill(null);
-    loadQuestion();
-})
-.catch(error => {
-    document.getElementById("question").innerHTML = "Failed to load questions.";
-    console.error(error);
-});
+    .then(response => {
 
-function loadQuestion(){
+        if (!response.ok) {
+            throw new Error("tamil.json file not found");
+        }
 
-    let q = questions[currentQuestion];
+        return response.json();
+    })
 
-    document.getElementById("question").innerHTML =
-        (currentQuestion + 1) + ". " + q.question;
+    .then(data => {
 
-    let optionsHTML = "";
+        questions = data;
 
-    q.options.forEach((option,index)=>{
+        if (!Array.isArray(questions) || questions.length === 0) {
+            throw new Error("No questions found in tamil.json");
+        }
 
-        let checked = userAnswers[currentQuestion] == index ? "checked" : "";
+        userAnswers = new Array(questions.length).fill(null);
 
-        optionsHTML += `
-        <label class="option">
-            <input type="radio"
-                   name="answer"
-                   value="${index}"
-                   ${checked}
-                   onchange="saveAnswer(${index})">
+        loadQuestion();
+    })
 
-            ${option}
-        </label>
-        `;
+    .catch(error => {
 
+        console.error("Tamil Quiz Error:", error);
+
+        document.getElementById("question").innerHTML =
+            "Unable to load Tamil questions.";
+
+        document.getElementById("options").innerHTML =
+            "<p>Please check tamil.json file.</p>";
     });
 
-    document.getElementById("options").innerHTML = optionsHTML;
 
+// LOAD QUESTION
+
+function loadQuestion() {
+
+    if (questions.length === 0) {
+        return;
+    }
+
+    const questionData = questions[currentQuestion];
+
+    document.getElementById("question").innerHTML =
+        (currentQuestion + 1) + ". " + questionData.question;
+
+    let html = "";
+
+    questionData.options.forEach((option, index) => {
+
+        let checked = "";
+
+        if (userAnswers[currentQuestion] == index) {
+            checked = "checked";
+        }
+
+        html += `
+            <label class="option">
+
+                <input
+                    type="radio"
+                    name="answer"
+                    value="${index}"
+                    ${checked}
+                    onchange="saveAnswer(${index})"
+                >
+
+                ${option}
+
+            </label>
+        `;
+    });
+
+    document.getElementById("options").innerHTML = html;
 }
 
-function saveAnswer(index){
-    userAnswers[currentQuestion] = index;
+
+// SAVE ANSWER
+
+function saveAnswer(answer) {
+
+    userAnswers[currentQuestion] = answer;
 }
 
-function nextQuestion(){
 
-    if(currentQuestion < questions.length-1){
+// NEXT
+
+function nextQuestion() {
+
+    if (currentQuestion < questions.length - 1) {
+
         currentQuestion++;
+
         loadQuestion();
     }
-
 }
 
-function previousQuestion(){
 
-    if(currentQuestion > 0){
+// PREVIOUS
+
+function previousQuestion() {
+
+    if (currentQuestion > 0) {
+
         currentQuestion--;
+
         loadQuestion();
     }
-
 }
 
-function submitQuiz(){
+
+// SUBMIT
+
+function submitQuiz() {
 
     score = 0;
 
-    for(let i = 0; i < questions.length; i++){
-        if(userAnswers[i] == questions[i].answer){
+    for (let i = 0; i < questions.length; i++) {
+
+        if (userAnswers[i] == questions[i].answer) {
+
             score++;
         }
     }
 
-    const timerText = document.getElementById("timer").textContent;
+    const timerElement =
+        document.getElementById("timer");
 
-    localStorage.setItem("subject", "physics");
-    localStorage.setItem("subjectId", 3);
+    let timerText = "";
+
+    if (timerElement) {
+
+        timerText =
+            timerElement.textContent;
+    }
+
+    localStorage.setItem("subject", "Tamil");
+
+    localStorage.setItem("subjectId", "1");
+
     localStorage.setItem("score", score);
+
     localStorage.setItem("total", questions.length);
+
     localStorage.setItem("time", timerText);
 
     window.location.href = "result.html";
