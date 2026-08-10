@@ -3,89 +3,154 @@ let currentQuestion = 0;
 let score = 0;
 let userAnswers = [];
 
-fetch("json/english.json")
-.then(response => response.json())
-.then(data => {
-    questions = data;
-    userAnswers = new Array(questions.length).fill(null);
-    loadQuestion();
-})
-.catch(error => console.log(error));
+// Load Tamil Questions
+fetch("json/tamil.json")
+    .then(response => {
 
-function loadQuestion(){
+        if (!response.ok) {
+            throw new Error("tamil.json file not found");
+        }
+
+        return response.json();
+    })
+
+    .then(data => {
+
+        questions = data;
+
+        if (!Array.isArray(questions) || questions.length === 0) {
+            throw new Error("No questions found in tamil.json");
+        }
+
+        userAnswers = new Array(questions.length).fill(null);
+
+        loadQuestion();
+    })
+
+    .catch(error => {
+
+        console.error("Tamil Quiz Error:", error);
+
+        document.getElementById("question").innerHTML =
+            "Unable to load Tamil questions.";
+
+        document.getElementById("options").innerHTML =
+            "<p>Please check tamil.json file.</p>";
+    });
+
+
+// LOAD QUESTION
+
+function loadQuestion() {
+
+    if (questions.length === 0) {
+        return;
+    }
+
+    const questionData = questions[currentQuestion];
 
     document.getElementById("question").innerHTML =
-    (currentQuestion + 1) + ". " + questions[currentQuestion].question;
+        (currentQuestion + 1) + ". " + questionData.question;
 
     let html = "";
 
-    questions[currentQuestion].options.forEach((option,index)=>{
+    questionData.options.forEach((option, index) => {
 
         let checked = "";
 
-        if(userAnswers[currentQuestion] == index){
+        if (userAnswers[currentQuestion] == index) {
             checked = "checked";
         }
 
         html += `
-        <label class="option">
-            <input type="radio"
-                   name="answer"
-                   value="${index}"
-                   ${checked}
-                   onchange="saveAnswer(${index})">
+            <label class="option">
 
-            ${option}
-        </label><br>
+                <input
+                    type="radio"
+                    name="answer"
+                    value="${index}"
+                    ${checked}
+                    onchange="saveAnswer(${index})"
+                >
+
+                ${option}
+
+            </label>
         `;
     });
 
     document.getElementById("options").innerHTML = html;
 }
 
-function saveAnswer(answer){
+
+// SAVE ANSWER
+
+function saveAnswer(answer) {
+
     userAnswers[currentQuestion] = answer;
 }
 
-function nextQuestion(){
 
-    if(currentQuestion < questions.length-1){
+// NEXT
+
+function nextQuestion() {
+
+    if (currentQuestion < questions.length - 1) {
+
         currentQuestion++;
+
         loadQuestion();
     }
 }
 
-function previousQuestion(){
 
-    if(currentQuestion > 0){
+// PREVIOUS
+
+function previousQuestion() {
+
+    if (currentQuestion > 0) {
+
         currentQuestion--;
+
         loadQuestion();
     }
 }
 
-function submitQuiz(){
+
+// SUBMIT
+
+function submitQuiz() {
 
     score = 0;
 
-    // Calculate Score
-    for(let i = 0; i < questions.length; i++){
+    for (let i = 0; i < questions.length; i++) {
 
-        if(userAnswers[i] == questions[i].answer){
+        if (userAnswers[i] == questions[i].answer) {
+
             score++;
         }
-
     }
 
-    // Timer
-    const timerText = document.getElementById("timer").textContent;
+    const timerElement =
+        document.getElementById("timer");
 
-    // Save Data
-    localStorage.setItem("subject", "English");
-    localStorage.setItem("subjectId", 2);
+    let timerText = "";
+
+    if (timerElement) {
+
+        timerText =
+            timerElement.textContent;
+    }
+
+    localStorage.setItem("subject", "Tamil");
+
+    localStorage.setItem("subjectId", "1");
+
     localStorage.setItem("score", score);
+
     localStorage.setItem("total", questions.length);
+
     localStorage.setItem("time", timerText);
 
     window.location.href = "result.html";
-
 }
