@@ -1,0 +1,154 @@
+[
+  {
+    "question": "What is the chemical symbol of Water?",
+    "options": ["O2", "H2O", "CO2", "NaCl"],
+    "answer": 1
+  },
+  {
+    "question": "Which gas is essential for respiration?",
+    "options": ["Nitrogen", "Hydrogen", "Oxygen", "Carbon Dioxide"],
+    "answer": 2
+  },
+  {
+    "question": "What is the chemical symbol of Sodium?",
+    "options": ["So", "S", "Na", "N"],
+    "answer": 2
+  },
+  {
+    "question": "Which acid is present in lemon?",
+    "options": ["Hydrochloric Acid", "Citric Acid", "Sulphuric Acid", "Nitric Acid"],
+    "answer": 1
+  },
+  {
+    "question": "Which gas do plants absorb during photosynthesis?",
+    "options": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+    "answer": 2
+  },
+  {
+    "question": "What is the pH value of pure water?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2
+  },
+  {
+    "question": "Which metal is liquid at room temperature?",
+    "options": ["Iron", "Mercury", "Copper", "Aluminium"],
+    "answer": 1
+  },
+  {
+    "question": "Which gas is known as Laughing Gas?",
+    "options": ["Nitrous Oxide", "Oxygen", "Carbon Monoxide", "Hydrogen"],
+    "answer": 0
+  },
+  {
+    "question": "Which element has the chemical symbol 'Fe'?",
+    "options": ["Fluorine", "Iron", "Francium", "Fermium"],
+    "answer": 1
+  },
+  {
+    "question": "Common salt is chemically known as?",
+    "options": ["NaOH", "NaCl", "HCl", "KCl"],
+    "answer": 1
+  }
+,
+{
+  "question": "Which gas is released during photosynthesis?",
+  "options": ["Carbon Dioxide", "Oxygen", "Nitrogen", "Hydrogen"],
+  "answer": 1
+},
+{
+  "question": "Which acid is found in vinegar?",
+  "options": ["Citric Acid", "Acetic Acid", "Sulphuric Acid", "Nitric Acid"],
+  "answer": 1
+},
+{
+  "question": "What is the chemical formula of Carbon Dioxide?",
+  "options": ["CO", "CO2", "C2O", "C2O2"],
+  "answer": 1
+},
+{
+  "question": "Which metal is used in electrical wires?",
+  "options": ["Iron", "Copper", "Gold", "Silver"],
+  "answer": 1
+},
+{
+  "question": "Which gas is filled in balloons?",
+  "options": ["Hydrogen", "Helium", "Oxygen", "Nitrogen"],
+  "answer": 1
+},
+{
+  "question": "Which element is represented by the symbol 'O'?",
+  "options": ["Gold", "Oxygen", "Osmium", "Silver"],
+  "answer": 1
+},
+{
+  "question": "What is the chemical symbol of Potassium?",
+  "options": ["P", "Pt", "K", "Po"],
+  "answer": 2
+},
+{
+  "question": "Which state of matter has a fixed shape and fixed volume?",
+  "options": ["Solid", "Liquid", "Gas", "Plasma"],
+  "answer": 0
+},
+{
+  "question": "Which gas is mainly present in the Earth's atmosphere?",
+  "options": ["Oxygen", "Carbon Dioxide", "Nitrogen", "Hydrogen"],
+  "answer": 2
+},
+{
+  "question": "Which vitamin is produced when sunlight falls on the skin?",
+  "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+  "answer": 3
+}
+,
+{
+  "question": "Which gas is known as the 'King of Chemicals'?",
+  "options": ["Hydrogen", "Oxygen", "Sulphuric Acid", "Nitrogen"],
+  "answer": 2
+},
+{
+  "question": "What is the chemical formula of Ammonia?",
+  "options": ["NH3", "NO2", "N2O", "NH4"],
+  "answer": 0
+},
+{
+  "question": "Which element is required for making stainless steel?",
+  "options": ["Chromium", "Copper", "Silver", "Gold"],
+  "answer": 0
+},
+{
+  "question": "What is the symbol of Calcium?",
+  "options": ["Cl", "Ca", "C", "Cr"],
+  "answer": 1
+},
+{
+  "question": "Which gas turns lime water milky?",
+  "options": ["Oxygen", "Hydrogen", "Carbon Dioxide", "Nitrogen"],
+  "answer": 2
+},
+{
+  "question": "Which acid is present in curd?",
+  "options": ["Acetic Acid", "Lactic Acid", "Citric Acid", "Oxalic Acid"],
+  "answer": 1
+},
+{
+  "question": "Which metal is the best conductor of electricity?",
+  "options": ["Copper", "Silver", "Iron", "Aluminium"],
+  "answer": 1
+},
+{
+  "question": "What is the smallest unit of an element?",
+  "options": ["Molecule", "Atom", "Electron", "Compound"],
+  "answer": 1
+},
+{
+  "question": "Which element is represented by the symbol 'Au'?",
+  "options": ["Silver", "Gold", "Aluminium", "Argon"],
+  "answer": 1
+},
+{
+  "question": "Which gas is used in fire extinguishers?",
+  "options": ["Oxygen", "Nitrogen", "Carbon Dioxide", "Hydrogen"],
+  "answer": 2
+}
+]

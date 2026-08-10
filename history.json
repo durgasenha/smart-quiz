@@ -1,0 +1,152 @@
+[
+  {
+    "question": "Who was the first Prime Minister of India?",
+    "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Sardar Patel", "B. R. Ambedkar"],
+    "answer": 0
+  },
+  {
+    "question": "Who is known as the Father of the Nation in India?",
+    "options": ["Subhas Chandra Bose", "Jawaharlal Nehru", "Mahatma Gandhi", "Bhagat Singh"],
+    "answer": 2
+  },
+  {
+    "question": "In which year did India gain independence?",
+    "options": ["1945", "1946", "1947", "1950"],
+    "answer": 2
+  },
+  {
+    "question": "Who was the first President of India?",
+    "options": ["Rajendra Prasad", "S. Radhakrishnan", "Zakir Husain", "A. P. J. Abdul Kalam"],
+    "answer": 0
+  },
+  {
+    "question": "Which Mughal emperor built the Taj Mahal?",
+    "options": ["Akbar", "Aurangzeb", "Shah Jahan", "Babur"],
+    "answer": 2
+  },
+  {
+    "question": "Who founded the Maurya Empire?",
+    "options": ["Ashoka", "Chandragupta Maurya", "Bindusara", "Harsha"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the last Governor-General of independent India?",
+    "options": ["Lord Mountbatten", "C. Rajagopalachari", "Rajendra Prasad", "Jawaharlal Nehru"],
+    "answer": 1
+  },
+  {
+    "question": "Which movement was started by Mahatma Gandhi in 1942?",
+    "options": ["Non-Cooperation Movement", "Civil Disobedience Movement", "Quit India Movement", "Swadeshi Movement"],
+    "answer": 2
+  },
+  {
+    "question": "Who wrote the Indian National Anthem?",
+    "options": ["Bankim Chandra Chatterjee", "Rabindranath Tagore", "Sarojini Naidu", "Subramania Bharati"],
+    "answer": 1
+  },
+  {
+    "question": "Which battle marked the beginning of British rule in India?",
+    "options": ["Battle of Panipat", "Battle of Plassey", "Battle of Buxar", "Battle of Haldighati"],
+    "answer": 1
+  },
+  {
+    "question": "Who was known as the Iron Man of India?",
+    "options": ["Jawaharlal Nehru", "Sardar Vallabhbhai Patel", "Subhas Chandra Bose", "Lal Bahadur Shastri"],
+    "answer": 1
+  },
+  {
+    "question": "Who founded the Mughal Empire?",
+    "options": ["Akbar", "Babur", "Humayun", "Shah Jahan"],
+    "answer": 1
+  },
+  {
+    "question": "Which emperor embraced Buddhism after the Kalinga War?",
+    "options": ["Chandragupta Maurya", "Ashoka", "Harsha", "Bindusara"],
+    "answer": 1
+  },
+  {
+    "question": "Who founded the Gupta Empire?",
+    "options": ["Samudragupta", "Chandragupta I", "Skandagupta", "Harsha"],
+    "answer": 1
+  },
+  {
+    "question": "The Jallianwala Bagh massacre took place in?",
+    "options": ["1915", "1917", "1919", "1921"],
+    "answer": 2
+  },
+  {
+    "question": "Who gave the slogan 'Give me blood, and I will give you freedom'?",
+    "options": ["Bhagat Singh", "Subhas Chandra Bose", "Mahatma Gandhi", "Bal Gangadhar Tilak"],
+    "answer": 1
+  },
+  {
+    "question": "Who founded the Indian National Congress?",
+    "options": ["A. O. Hume", "Dadabhai Naoroji", "Bal Gangadhar Tilak", "Annie Besant"],
+    "answer": 0
+  },
+  {
+    "question": "Which movement started in 1920?",
+    "options": ["Civil Disobedience", "Quit India", "Non-Cooperation", "Swadeshi"],
+    "answer": 2
+  },
+  {
+    "question": "Who wrote 'Discovery of India'?",
+    "options": ["Rabindranath Tagore", "Jawaharlal Nehru", "Mahatma Gandhi", "B. R. Ambedkar"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the first Mughal emperor to rule India?",
+    "options": ["Babur", "Humayun", "Akbar", "Aurangzeb"],
+    "answer": 0
+  },
+  {
+    "question": "Who founded the Delhi Sultanate?",
+    "options": ["Qutb-ud-din Aibak", "Iltutmish", "Balban", "Alauddin Khilji"],
+    "answer": 0
+  },
+  {
+    "question": "Who announced the Partition of Bengal in 1905?",
+    "options": ["Lord Curzon", "Lord Mountbatten", "Lord Ripon", "Lord Wellesley"],
+    "answer": 0
+  },
+  {
+    "question": "Who was popularly known as Netaji?",
+    "options": ["Bhagat Singh", "Subhas Chandra Bose", "Lala Lajpat Rai", "Sardar Patel"],
+    "answer": 1
+  },
+  {
+    "question": "The Salt March started in?",
+    "options": ["1928", "1930", "1932", "1942"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the first woman ruler of Delhi?",
+    "options": ["Razia Sultan", "Nur Jahan", "Rani Lakshmibai", "Ahilyabai Holkar"],
+    "answer": 0
+  },
+  {
+    "question": "Which battle ended Siraj-ud-Daulah's rule?",
+    "options": ["Battle of Panipat", "Battle of Plassey", "Battle of Buxar", "Battle of Haldighati"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the first Governor-General of Independent India?",
+    "options": ["Lord Mountbatten", "C. Rajagopalachari", "Rajendra Prasad", "Jawaharlal Nehru"],
+    "answer": 0
+  },
+  {
+    "question": "Who said 'Swaraj is my birthright and I shall have it'?",
+    "options": ["Mahatma Gandhi", "Bal Gangadhar Tilak", "Subhas Chandra Bose", "Jawaharlal Nehru"],
+    "answer": 1
+  },
+  {
+    "question": "Who was the last Mughal Emperor?",
+    "options": ["Bahadur Shah Zafar", "Aurangzeb", "Shah Alam II", "Akbar II"],
+    "answer": 0
+  },
+  {
+    "question": "Who is known as the Nightingale of India?",
+    "options": ["Sarojini Naidu", "Annie Besant", "Kasturba Gandhi", "Aruna Asaf Ali"],
+    "answer": 0
+  }
+]

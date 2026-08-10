@@ -1,0 +1,153 @@
+[
+  {
+    "question": "What is 15 + 25?",
+    "options": ["35", "40", "45", "50"],
+    "answer": 1
+  },
+  {
+    "question": "What is 18 × 6?",
+    "options": ["98", "108", "118", "128"],
+    "answer": 1
+  },
+  {
+    "question": "What is 144 ÷ 12?",
+    "options": ["10", "11", "12", "13"],
+    "answer": 2
+  },
+  {
+    "question": "What is the square of 11?",
+    "options": ["111", "121", "131", "141"],
+    "answer": 1
+  },
+  {
+    "question": "What is the cube of 3?",
+    "options": ["9", "18", "27", "36"],
+    "answer": 2
+  },
+  {
+    "question": "What is 75 − 28?",
+    "options": ["45", "46", "47", "48"],
+    "answer": 2
+  },
+  {
+    "question": "What is 20% of 250?",
+    "options": ["25", "40", "50", "60"],
+    "answer": 2
+  },
+  {
+    "question": "Solve: 45 + 35 − 20",
+    "options": ["50", "55", "60", "65"],
+    "answer": 2
+  },
+  {
+    "question": "What is the value of 8²?",
+    "options": ["16", "32", "64", "72"],
+    "answer": 2
+  },
+  {
+    "question": "Find the value of x: x + 18 = 45",
+    "options": ["25", "26", "27", "28"],
+    "answer": 2
+  },
+
+{
+  "question": "What is 50% of 80?",
+  "options": ["30", "35", "40", "45"],
+  "answer": 2
+},
+{
+  "question": "Find the value of x: 5x = 40",
+  "options": ["6", "7", "8", "9"],
+  "answer": 2
+},
+{
+  "question": "What is the perimeter of a square with side 9 cm?",
+  "options": ["18 cm", "27 cm", "36 cm", "81 cm"],
+  "answer": 2
+},
+{
+  "question": "What is the area of a rectangle of length 8 cm and breadth 5 cm?",
+  "options": ["13 cm²", "30 cm²", "40 cm²", "45 cm²"],
+  "answer": 2
+},
+{
+  "question": "Which number is a prime number?",
+  "options": ["12", "15", "17", "21"],
+  "answer": 2
+},
+{
+  "question": "What is the LCM of 4 and 6?",
+  "options": ["8", "10", "12", "24"],
+  "answer": 2
+},
+{
+  "question": "What is the HCF of 18 and 24?",
+  "options": ["3", "6", "9", "12"],
+  "answer": 1
+},
+{
+  "question": "Simplify: 9 + 6 × 2",
+  "options": ["30", "21", "18", "24"],
+  "answer": 1
+},
+{
+  "question": "What is 15²?",
+  "options": ["125", "200", "225", "250"],
+  "answer": 2
+},
+{
+  "question": "What is the value of π (approximately)?",
+  "options": ["2.14", "3.14", "4.14", "5.14"],
+  "answer": 1
+},
+{
+  "question": "What is 125 ÷ 5?",
+  "options": ["20", "25", "30", "35"],
+  "answer": 1
+},
+{
+  "question": "What is 9 × 11?",
+  "options": ["88", "99", "101", "111"],
+  "answer": 1
+},
+{
+  "question": "Find the value of x: x - 12 = 18",
+  "options": ["28", "29", "30", "31"],
+  "answer": 2
+},
+{
+  "question": "A triangle has how many sides?",
+  "options": ["2", "3", "4", "5"],
+  "answer": 1
+},
+{
+  "question": "How many degrees are in a right angle?",
+  "options": ["45°", "60°", "90°", "180°"],
+  "answer": 2
+},
+{
+  "question": "What is 7 × 8?",
+  "options": ["54", "56", "58", "64"],
+  "answer": 1
+},
+{
+  "question": "Which of the following is an even number?",
+  "options": ["15", "19", "22", "27"],
+  "answer": 2
+},
+{
+  "question": "What is 1000 - 475?",
+  "options": ["515", "525", "535", "545"],
+  "answer": 1
+},
+{
+  "question": "How many months are there in one year?",
+  "options": ["10", "11", "12", "13"],
+  "answer": 2
+},
+{
+  "question": "What is the sum of the angles in a triangle?",
+  "options": ["90°", "180°", "270°", "360°"],
+  "answer": 1
+}
+]

@@ -1,0 +1,159 @@
+[
+  {
+    "question": "Choose the correct article: ___ apple a day keeps the doctor away.",
+    "options": ["A", "An", "The", "No article"],
+    "answer": 1
+  },
+  {
+    "question": "She ___ to school every day.",
+    "options": ["go", "goes", "going", "gone"],
+    "answer": 1
+  },
+  {
+    "question": "They ___ football every evening.",
+    "options": ["play", "plays", "playing", "played"],
+    "answer": 0
+  },
+  {
+    "question": "I ___ a letter yesterday.",
+    "options": ["write", "writes", "wrote", "writing"],
+    "answer": 2
+  },
+  {
+    "question": "He is ___ honest man.",
+    "options": ["a", "an", "the", "no article"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct plural form of 'Child'.",
+    "options": ["Childs", "Children", "Childes", "Child"],
+    "answer": 1
+  },
+  {
+    "question": "Which sentence is correct?",
+    "options": [
+      "She don't like tea.",
+      "She doesn't likes tea.",
+      "She doesn't like tea.",
+      "She not like tea."
+    ],
+    "answer": 2
+  },
+  {
+    "question": "The opposite of 'Early' is?",
+    "options": ["Fast", "Late", "Quick", "Soon"],
+    "answer": 1
+  },
+  {
+    "question": "Choose the correct preposition: The book is ___ the table.",
+    "options": ["in", "on", "at", "by"],
+    "answer": 1
+  },
+  {
+    "question": "Which punctuation mark ends a question?",
+    "options": [".", ",", "?", "!"],
+    "answer": 2
+  }
+,
+{
+  "question": "Synonym of 'Happy' is?",
+  "options": ["Sad", "Joyful", "Angry", "Weak"],
+  "answer": 1
+},
+{
+  "question": "Antonym of 'Strong' is?",
+  "options": ["Powerful", "Weak", "Hard", "Brave"],
+  "answer": 1
+},
+{
+  "question": "Synonym of 'Quick' is?",
+  "options": ["Slow", "Fast", "Weak", "Lazy"],
+  "answer": 1
+},
+{
+  "question": "Antonym of 'Beautiful' is?",
+  "options": ["Pretty", "Ugly", "Lovely", "Nice"],
+  "answer": 1
+},
+{
+  "question": "Meaning of 'Ancient' is?",
+  "options": ["Modern", "Old", "New", "Future"],
+  "answer": 1
+},
+{
+  "question": "Synonym of 'Begin' is?",
+  "options": ["End", "Start", "Finish", "Close"],
+  "answer": 1
+},
+{
+  "question": "Antonym of 'Rich' is?",
+  "options": ["Poor", "Wealthy", "Strong", "Happy"],
+  "answer": 0
+},
+{
+  "question": "Choose the correctly spelled word.",
+  "options": ["Recieve", "Receive", "Receeve", "Receve"],
+  "answer": 1
+},
+{
+  "question": "Meaning of 'Brave' is?",
+  "options": ["Cowardly", "Fearless", "Weak", "Silent"],
+  "answer": 1
+},
+{
+  "question": "Synonym of 'Smart' is?",
+  "options": ["Intelligent", "Lazy", "Weak", "Slow"],
+  "answer": 0
+}
+,
+{
+  "question": "Read the passage: Ravi is a good student. He studies every day. What kind of student is Ravi?",
+  "options": ["Lazy", "Good", "Careless", "Weak"],
+  "answer": 1
+},
+{
+  "question": "Read the passage: Meena has a pet cat. The cat likes milk. What is Meena's pet?",
+  "options": ["Dog", "Rabbit", "Cat", "Parrot"],
+  "answer": 2
+},
+{
+  "question": "Read the passage: The sun rises in the east. Where does the sun rise?",
+  "options": ["West", "North", "East", "South"],
+  "answer": 2
+},
+{
+  "question": "Read the passage: Birds build nests on trees. Where do birds build nests?",
+  "options": ["Water", "Trees", "Road", "House"],
+  "answer": 1
+},
+{
+  "question": "Read the passage: Kumar drinks milk every morning. What does Kumar drink?",
+  "options": ["Coffee", "Tea", "Milk", "Juice"],
+  "answer": 2
+},
+{
+  "question": "Read the passage: A library is a place where people read books. What do people read in a library?",
+  "options": ["Newspapers only", "Books", "Clothes", "Games"],
+  "answer": 1
+},
+{
+  "question": "Read the passage: Priya planted a mango tree. After a few years it gave sweet fruits. Which tree did Priya plant?",
+  "options": ["Apple", "Neem", "Mango", "Banana"],
+  "answer": 2
+},
+{
+  "question": "Read the passage: It was raining heavily, so Raju used an umbrella. Why did Raju use an umbrella?",
+  "options": ["It was sunny", "It was raining", "It was windy", "It was cold"],
+  "answer": 1
+},
+{
+  "question": "Read the passage: A train is faster than a bicycle. Which is faster?",
+  "options": ["Bicycle", "Train", "Car", "Bus"],
+  "answer": 1
+},
+{
+  "question": "Read the passage: Plants need water and sunlight to grow. What do plants need to grow?",
+  "options": ["Water and sunlight", "Only water", "Only sunlight", "Milk"],
+  "answer": 0
+}
+]

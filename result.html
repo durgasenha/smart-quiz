@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quiz Result</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#f4f6f9;
+display:flex;
+justify-content:center;
+align-items:center;
+height:100vh;
+}
+
+.card{
+width:500px;
+background:#fff;
+padding:30px;
+border-radius:20px;
+box-shadow:0 10px 30px rgba(0,0,0,.15);
+text-align:center;
+}
+
+h1{
+color:#4CAF50;
+margin-bottom:20px;
+}
+
+.result{
+text-align:left;
+margin-top:20px;
+}
+
+.result p{
+font-size:18px;
+margin:10px 0;
+}
+
+.progress{
+width:100%;
+height:20px;
+background:#ddd;
+border-radius:20px;
+overflow:hidden;
+margin-top:20px;
+}
+
+.bar{
+height:100%;
+width:0%;
+background:#4CAF50;
+transition:.5s;
+}
+
+button{
+width:100%;
+padding:15px;
+margin-top:15px;
+border:none;
+border-radius:10px;
+font-size:18px;
+cursor:pointer;
+color:#fff;
+}
+
+.retry{
+background:#2196F3;
+}
+
+.home{
+background:#4CAF50;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="card">
+
+<h1>Quiz Result</h1>
+
+<div class="result">
+
+<p><b>Subject :</b> <span id="subject"></span></p>
+
+<p><b>Correct :</b> <span id="correct"></span></p>
+
+<p><b>Wrong :</b> <span id="wrong"></span></p>
+
+<p><b>Total :</b> <span id="total"></span></p>
+
+<p><b>Percentage :</b> <span id="percentage"></span></p>
+
+<p><b>Grade :</b> <span id="grade"></span></p>
+
+<div class="progress">
+<div class="bar" id="bar"></div>
+</div>
+
+</div>
+
+<button class="retry" onclick="retryQuiz()">
+Retry Quiz
+</button>
+
+<button class="home" onclick="dashboard()">
+Dashboard
+</button>
+
+<br><br>
+
+</div>
+
+<script src="js/result.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the largest continent?",
+    "options": ["Asia", "Africa", "Europe", "Australia"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": ["Amazon", "Nile", "Yangtze", "Ganga"],
+    "answer": 1
+  },
+  {
+    "question": "What is the capital of India?",
+    "options": ["Mumbai", "New Delhi", "Chennai", "Kolkata"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest ocean?",
+    "options": ["Atlantic", "Indian", "Pacific", "Arctic"],
+    "answer": 2
+  },
+  {
+    "question": "Mount Everest is located in which country?",
+    "options": ["India", "Nepal", "China", "Bhutan"],
+    "answer": 1
+  },
+  {
+    "question": "Which desert is the largest hot desert in the world?",
+    "options": ["Gobi", "Sahara", "Thar", "Kalahari"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has the largest population?",
+    "options": ["India", "China", "USA", "Indonesia"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the smallest continent?",
+    "options": ["Europe", "Australia", "Antarctica", "South America"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the highest mountain in Africa?",
+    "options": ["Mount Kenya", "Mount Kilimanjaro", "Atlas Peak", "Mount Elgon"],
+    "answer": 1
+  },
+  {
+    "question": "The Equator passes through how many continents?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the deepest ocean?",
+    "options": ["Indian", "Atlantic", "Pacific", "Arctic"],
+    "answer": 2
+  },
+  {
+    "question": "Which river flows through Egypt?",
+    "options": ["Amazon", "Nile", "Mississippi", "Yangtze"],
+    "answer": 1
+  },
+  {
+    "question": "Which country is known as the Land of the Rising Sun?",
+    "options": ["China", "Japan", "Thailand", "South Korea"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest island in the world?",
+    "options": ["Greenland", "Madagascar", "Sri Lanka", "Borneo"],
+    "answer": 0
+  },
+  {
+    "question": "Which continent is known as the Dark Continent?",
+    "options": ["Asia", "Africa", "Europe", "Australia"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the longest mountain range in the world?",
+    "options": ["Rockies", "Himalayas", "Andes", "Alps"],
+    "answer": 2
+  },
+  {
+    "question": "What is the capital of Australia?",
+    "options": ["Sydney", "Melbourne", "Canberra", "Perth"],
+    "answer": 2
+  },
+  {
+    "question": "Which ocean surrounds Antarctica?",
+    "options": ["Atlantic", "Southern", "Indian", "Pacific"],
+    "answer": 1
+  },
+  {
+    "question": "Which country has the most volcanoes?",
+    "options": ["Indonesia", "Japan", "USA", "Philippines"],
+    "answer": 0
+  },
+  {
+    "question": "Which is the largest country by area?",
+    "options": ["Canada", "Russia", "China", "USA"],
+    "answer": 1
+  },
+  {
+    "question": "Which river flows through London?",
+    "options": ["Seine", "Danube", "Thames", "Rhine"],
+    "answer": 2
+  },
+  {
+    "question": "Which continent has the most countries?",
+    "options": ["Asia", "Europe", "Africa", "South America"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the largest freshwater lake by area?",
+    "options": ["Lake Superior", "Lake Victoria", "Lake Baikal", "Lake Michigan"],
+    "answer": 0
+  },
+  {
+    "question": "Which country is famous for the Great Barrier Reef?",
+    "options": ["Australia", "USA", "Brazil", "South Africa"],
+    "answer": 0
+  },
+  {
+    "question": "What is the capital of Canada?",
+    "options": ["Toronto", "Ottawa", "Vancouver", "Montreal"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the coldest continent?",
+    "options": ["Europe", "North America", "Antarctica", "Asia"],
+    "answer": 2
+  },
+  {
+    "question": "Which river is the longest in India?",
+    "options": ["Yamuna", "Godavari", "Ganga", "Krishna"],
+    "answer": 2
+  },
+  {
+    "question": "Which country has the most time zones?",
+    "options": ["Russia", "USA", "France", "Australia"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the highest waterfall in the world?",
+    "options": ["Niagara Falls", "Angel Falls", "Victoria Falls", "Iguazu Falls"],
+    "answer": 1
+  },
+  {
+    "question": "Which sea separates Europe and Africa?",
+    "options": ["Black Sea", "Mediterranean Sea", "Arabian Sea", "Red Sea"],
+    "answer": 1
+  }
+]

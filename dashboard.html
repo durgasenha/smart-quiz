@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Smart Quiz</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:
+    linear-gradient(rgba(0,0,0,.75),rgba(0,0,0,.75)),
+    url("images/smartquiz.png");
+    background-size:cover;
+    background-position:center;
+    background-attachment:fixed;
+}
+
+/* HEADER */
+
+header{
+    position:fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:80px;
+    background:#111;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:0 8%;
+    z-index:1000;
+}
+
+.logo{
+    display:flex;
+    align-items:center;
+    gap:15px;
+    color:#fff;
+    font-size:32px;
+    font-weight:bold;
+}
+
+.logo img{
+    width:60px;
+}
+
+nav ul{
+    display:flex;
+    list-style:none;
+}
+
+nav ul li{
+    margin-left:25px;
+}
+
+nav ul li a{
+    color:#fff;
+    text-decoration:none;
+    font-weight:600;
+}
+
+nav ul li a:hover{
+    color:#00d4ff;
+}
+
+/* HERO */
+
+.hero{
+    min-height:100vh;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:#fff;
+}
+
+.hero h1{
+    font-size:60px;
+}
+
+.hero p{
+    font-size:22px;
+    margin:20px 0;
+}
+
+.btn{
+    display:inline-block;
+    background:#00c6ff;
+    color:#fff;
+    text-decoration:none;
+    padding:14px 35px;
+    border-radius:8px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.btn:hover{
+    background:#0099ff;
+}
+
+/* SECTION */
+
+section{
+    padding:80px 8%;
+}
+
+.title{
+    text-align:center;
+    color:#fff;
+    font-size:42px;
+    margin-bottom:40px;
+}
+
+.container{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:25px;
+}
+
+.card{
+    background:rgba(255,255,255,.12);
+    backdrop-filter:blur(10px);
+    border:1px solid rgba(255,255,255,.2);
+    border-radius:15px;
+    padding:30px;
+    text-align:center;
+    color:#fff;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    background:#111;
+}
+
+.card h2{
+    margin-bottom:15px;
+}
+
+.card p{
+    margin-bottom:20px;
+    color:#ddd;
+}
+
+/* FOOTER */
+
+footer{
+    background:#111;
+    color:#fff;
+    text-align:center;
+    padding:20px;
+    margin-top:50px;
+}
+</style>
+
+</head>
+<body>
+<header>
+
+<div class="logo">
+<img src="images/logo.png">
+<span>Smart Quiz</span>
+</div>
+
+<nav>
+<ul>
+<li><a href="#" onclick="logout()">Logout</a></li>
+</ul>
+</nav>
+
+</header>
+
+<!-- HERO -->
+
+<section class="hero">
+
+<div>
+
+<h1 id="welcome"></h1>
+
+<p>Select a Subject and Start Your Quiz</p>
+
+</div>
+
+</section>
+
+<!-- SUBJECTS -->
+
+<section>
+
+<h1 class="title">Quiz Categories</h1>
+
+<div class="container">
+    <div class="card">
+    <h2>📚 தமிழ்</h2>
+    <p>இலக்கணம், இலக்கியம் & புரிதல்</p>
+    <a href="tamil.html" class="btn">Start Quiz</a>
+    
+    
+    </a>
+</div>
+
+<div class="card">
+    <h2>📖 English</h2>
+    <p>Grammar, Vocabulary & Comprehension</p>
+    <a href="english.html" class="btn">Start Quiz</a>
+</div>
+<div class="card">
+<h2>💻 Computer Science</h2>
+<p>Programming, DBMS & Networking</p>
+<a href="computer.html" class="btn">Start Quiz</a>
+</div>
+
+<div class="card">
+<h2>➗ Mathematics</h2>
+<p>Algebra, Geometry & Aptitude</p>
+<a href="maths.html" class="btn">Start Quiz</a>
+</div>
+
+<div class="card">
+<h2>🌍 General Knowledge</h2>
+<p>Current Affairs & GK</p>
+<a href="gk.html" class="btn">Start Quiz</a>
+</div>
+
+<div class="card">
+<h2>⚛ Physics</h2>
+<p>Mechanics, Optics & Modern Physics</p>
+<a href="physics.html" class="btn">Start Quiz</a>
+</div>
+
+<div class="card">
+<h2>🧪 Chemistry</h2>
+<p>Organic, Inorganic & Physical</p>
+<a href="chemistry.html" class="btn">Start Quiz</a>
+</div>
+
+<div class="card">
+<h2>🧬 Biology</h2>
+<p>Botany, Zoology & Human Anatomy</p>
+<a href="biology.html" class="btn">Start Quiz</a>
+</div>
+
+<div class="card">
+<h2>🏛 History</h2>
+<p>Indian & World History</p>
+<a href="history.html" class="btn">Start Quiz</a>
+</div>
+
+<div class="card">
+<h2>🗺 Geography</h2>
+<p>Countries, Capitals & Maps</p>
+<a href="geography.html" class="btn">Start Quiz</a>
+</div>
+</div>
+
+
+<footer>
+<p>© 2026 Smart Quiz | All Rights Reserved.</p>
+</footer>
+<script src="js/dashboard.js"></script>
+
+</body>
+</html>

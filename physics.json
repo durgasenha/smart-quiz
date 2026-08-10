@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What is the SI unit of Force?",
+    "options": ["Newton", "Joule", "Pascal", "Watt"],
+    "answer": 0
+  },
+  {
+    "question": "Which instrument measures temperature?",
+    "options": ["Barometer", "Thermometer", "Ammeter", "Voltmeter"],
+    "answer": 1
+  },
+  {
+    "question": "What is the speed of light in vacuum?",
+    "options": ["3×10⁸ m/s", "340 m/s", "1500 m/s", "3×10⁶ m/s"],
+    "answer": 0
+  },
+  {
+    "question": "Which force keeps planets in orbit?",
+    "options": ["Magnetic", "Gravitational", "Electric", "Friction"],
+    "answer": 1
+  },
+  {
+    "question": "SI unit of electric current is?",
+    "options": ["Volt", "Ampere", "Ohm", "Watt"],
+    "answer": 1
+  },
+  {
+    "question": "Who discovered gravity?",
+    "options": ["Einstein", "Newton", "Galileo", "Tesla"],
+    "answer": 1
+  },
+  {
+    "question": "Energy stored in a stretched spring is?",
+    "options": ["Kinetic", "Potential", "Thermal", "Electrical"],
+    "answer": 1
+  },
+  {
+    "question": "SI unit of Power is?",
+    "options": ["Joule", "Newton", "Watt", "Pascal"],
+    "answer": 2
+  },
+  {
+    "question": "Which color has the longest wavelength?",
+    "options": ["Blue", "Green", "Red", "Violet"],
+    "answer": 2
+  },
+  {
+    "question": "Sound cannot travel through?",
+    "options": ["Air", "Water", "Vacuum", "Steel"],
+    "answer": 2
+  },
+  {
+    "question": "SI unit of Pressure is?",
+    "options": ["Pascal", "Newton", "Joule", "Watt"],
+    "answer": 0
+  },
+  {
+    "question": "Device used to measure electric current?",
+    "options": ["Voltmeter", "Ammeter", "Ohmmeter", "Galvanometer"],
+    "answer": 1
+  },
+  {
+    "question": "Which mirror is used in vehicles?",
+    "options": ["Plane", "Convex", "Concave", "None"],
+    "answer": 1
+  },
+  {
+    "question": "Unit of Frequency?",
+    "options": ["Hertz", "Volt", "Ampere", "Tesla"],
+    "answer": 0
+  },
+  {
+    "question": "The Earth revolves around the?",
+    "options": ["Moon", "Mars", "Sun", "Jupiter"],
+    "answer": 2
+  },
+  {
+    "question": "Which energy does a moving object have?",
+    "options": ["Potential", "Chemical", "Kinetic", "Nuclear"],
+    "answer": 2
+  },
+  {
+    "question": "SI unit of Work is?",
+    "options": ["Newton", "Joule", "Watt", "Pascal"],
+    "answer": 1
+  },
+  {
+    "question": "Which scientist invented the electric bulb?",
+    "options": ["Newton", "Edison", "Tesla", "Faraday"],
+    "answer": 1
+  },
+  {
+    "question": "Which planet is known as the Red Planet?",
+    "options": ["Earth", "Mars", "Venus", "Saturn"],
+    "answer": 1
+  },
+  {
+    "question": "SI unit of Voltage?",
+    "options": ["Volt", "Ampere", "Ohm", "Tesla"],
+    "answer": 0
+  },
+  {
+    "question": "Which lens is used to correct short sight?",
+    "options": ["Convex", "Concave", "Plane", "Cylindrical"],
+    "answer": 1
+  },
+  {
+    "question": "Which wave transfers sound?",
+    "options": ["Mechanical", "Radio", "Light", "X-ray"],
+    "answer": 0
+  },
+  {
+    "question": "Who discovered electromagnetic induction?",
+    "options": ["Faraday", "Newton", "Einstein", "Bohr"],
+    "answer": 0
+  },
+  {
+    "question": "Which gas is filled in electric bulbs?",
+    "options": ["Oxygen", "Argon", "Nitrogen", "Hydrogen"],
+    "answer": 1
+  },
+  {
+    "question": "SI unit of Resistance?",
+    "options": ["Volt", "Ohm", "Ampere", "Watt"],
+    "answer": 1
+  },
+  {
+    "question": "Which energy is produced by the Sun?",
+    "options": ["Nuclear", "Chemical", "Wind", "Hydro"],
+    "answer": 0
+  },
+  {
+    "question": "The boiling point of water is?",
+    "options": ["90°C", "95°C", "100°C", "110°C"],
+    "answer": 2
+  },
+  {
+    "question": "The freezing point of water is?",
+    "options": ["0°C", "10°C", "32°C", "100°C"],
+    "answer": 0
+  },
+  {
+    "question": "Which device converts electrical energy into mechanical energy?",
+    "options": ["Generator", "Motor", "Transformer", "Battery"],
+    "answer": 1
+  },
+  {
+    "question": "Which scientist proposed the theory of relativity?",
+    "options": ["Newton", "Einstein", "Faraday", "Bohr"],
+    "answer": 1
+  }
+]

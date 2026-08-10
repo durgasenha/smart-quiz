@@ -1,0 +1,154 @@
+[
+  {
+    "question": "What is the basic unit of life?",
+    "options": ["Tissue", "Organ", "Cell", "Organism"],
+    "answer": 2
+  },
+  {
+    "question": "Which organ pumps blood throughout the human body?",
+    "options": ["Lungs", "Brain", "Heart", "Liver"],
+    "answer": 2
+  },
+  {
+    "question": "Which pigment gives plants their green color?",
+    "options": ["Hemoglobin", "Melanin", "Chlorophyll", "Carotene"],
+    "answer": 2
+  },
+  {
+    "question": "Which gas do humans inhale for breathing?",
+    "options": ["Carbon Dioxide", "Nitrogen", "Oxygen", "Hydrogen"],
+    "answer": 2
+  },
+  {
+    "question": "How many chambers are there in the human heart?",
+    "options": ["2", "3", "4", "5"],
+    "answer": 2
+  },
+  {
+    "question": "Which organ is responsible for filtering blood?",
+    "options": ["Kidney", "Liver", "Heart", "Lungs"],
+    "answer": 0
+  },
+  {
+    "question": "Which part of the plant absorbs water from the soil?",
+    "options": ["Stem", "Leaf", "Flower", "Root"],
+    "answer": 3
+  },
+  {
+    "question": "What is the largest organ in the human body?",
+    "options": ["Heart", "Skin", "Liver", "Brain"],
+    "answer": 1
+  },
+  {
+    "question": "Which blood cells help fight infections?",
+    "options": ["Red Blood Cells", "White Blood Cells", "Platelets", "Plasma"],
+    "answer": 1
+  },
+  {
+    "question": "Which vitamin is mainly produced in the body with the help of sunlight?",
+    "options": ["Vitamin A", "Vitamin B", "Vitamin C", "Vitamin D"],
+    "answer": 3
+  }
+,
+{
+  "question": "Which organ helps us breathe?",
+  "options": ["Heart", "Kidney", "Lungs", "Liver"],
+  "answer": 2
+},
+{
+  "question": "What is the main source of energy for the Earth?",
+  "options": ["Moon", "Sun", "Wind", "Water"],
+  "answer": 1
+},
+{
+  "question": "Which part of the plant prepares food?",
+  "options": ["Root", "Stem", "Leaf", "Flower"],
+  "answer": 2
+},
+{
+  "question": "What is the normal body temperature of a healthy human?",
+  "options": ["35°C", "36°C", "37°C", "38°C"],
+  "answer": 2
+},
+{
+  "question": "Which blood group is called the universal donor?",
+  "options": ["A", "B", "AB", "O Negative"],
+  "answer": 3
+},
+{
+  "question": "Which organ controls all activities of the body?",
+  "options": ["Heart", "Brain", "Kidney", "Liver"],
+  "answer": 1
+},
+{
+  "question": "Which vitamin helps in blood clotting?",
+  "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+  "answer": 3
+},
+{
+  "question": "Which part of the eye controls the amount of light entering?",
+  "options": ["Retina", "Iris", "Cornea", "Lens"],
+  "answer": 1
+},
+{
+  "question": "Which is the largest bone in the human body?",
+  "options": ["Femur", "Tibia", "Humerus", "Radius"],
+  "answer": 0
+},
+{
+  "question": "Plants prepare food by which process?",
+  "options": ["Respiration", "Digestion", "Photosynthesis", "Transpiration"],
+  "answer": 2
+}
+,
+{
+  "question": "Which organ helps us breathe?",
+  "options": ["Heart", "Kidney", "Lungs", "Liver"],
+  "answer": 2
+},
+{
+  "question": "What is the main source of energy for the Earth?",
+  "options": ["Moon", "Sun", "Wind", "Water"],
+  "answer": 1
+},
+{
+  "question": "Which part of the plant prepares food?",
+  "options": ["Root", "Stem", "Leaf", "Flower"],
+  "answer": 2
+},
+{
+  "question": "What is the normal body temperature of a healthy human?",
+  "options": ["35°C", "36°C", "37°C", "38°C"],
+  "answer": 2
+},
+{
+  "question": "Which blood group is called the universal donor?",
+  "options": ["A", "B", "AB", "O Negative"],
+  "answer": 3
+},
+{
+  "question": "Which organ controls all activities of the body?",
+  "options": ["Heart", "Brain", "Kidney", "Liver"],
+  "answer": 1
+},
+{
+  "question": "Which vitamin helps in blood clotting?",
+  "options": ["Vitamin A", "Vitamin C", "Vitamin D", "Vitamin K"],
+  "answer": 3
+},
+{
+  "question": "Which part of the eye controls the amount of light entering?",
+  "options": ["Retina", "Iris", "Cornea", "Lens"],
+  "answer": 1
+},
+{
+  "question": "Which is the largest bone in the human body?",
+  "options": ["Femur", "Tibia", "Humerus", "Radius"],
+  "answer": 0
+},
+{
+  "question": "Plants prepare food by which process?",
+  "options": ["Respiration", "Digestion", "Photosynthesis", "Transpiration"],
+  "answer": 2
+}
+]

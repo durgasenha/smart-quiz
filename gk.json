@@ -1,0 +1,154 @@
+[
+  {
+    "question": "What is the capital of India?",
+    "options": ["Mumbai", "Chennai", "New Delhi", "Kolkata"],
+    "answer": 2
+  },
+  {
+    "question": "Who is known as the Father of the Nation in India?",
+    "options": ["Jawaharlal Nehru", "Mahatma Gandhi", "Subhas Chandra Bose", "B. R. Ambedkar"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the largest planet in our Solar System?",
+    "options": ["Earth", "Mars", "Jupiter", "Saturn"],
+    "answer": 2
+  },
+  {
+    "question": "How many continents are there on Earth?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2
+  },
+  {
+    "question": "Which is the national animal of India?",
+    "options": ["Lion", "Tiger", "Elephant", "Leopard"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the longest river in the world?",
+    "options": ["Amazon", "Nile", "Ganga", "Yangtze"],
+    "answer": 1
+  },
+  {
+    "question": "Who invented the telephone?",
+    "options": ["Thomas Edison", "Alexander Graham Bell", "Isaac Newton", "Albert Einstein"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the smallest continent?",
+    "options": ["Europe", "Australia", "Africa", "South America"],
+    "answer": 1
+  },
+  {
+    "question": "Which is the fastest land animal?",
+    "options": ["Lion", "Horse", "Cheetah", "Tiger"],
+    "answer": 2
+  },
+  {
+    "question": "How many colors are there in a rainbow?",
+    "options": ["5", "6", "7", "8"],
+    "answer": 2
+  }
+,
+{
+  "question": "Which is the largest desert in the world?",
+  "options": ["Sahara Desert", "Gobi Desert", "Thar Desert", "Kalahari Desert"],
+  "answer": 0
+},
+{
+  "question": "Which is the currency of India?",
+  "options": ["Dollar", "Rupee", "Yen", "Euro"],
+  "answer": 1
+},
+{
+  "question": "Who was the first Prime Minister of India?",
+  "options": ["Mahatma Gandhi", "Jawaharlal Nehru", "Sardar Patel", "Dr. Rajendra Prasad"],
+  "answer": 1
+},
+{
+  "question": "Which planet is called the Blue Planet?",
+  "options": ["Mars", "Earth", "Venus", "Neptune"],
+  "answer": 1
+},
+{
+  "question": "Which is the national tree of India?",
+  "options": ["Neem", "Mango", "Banyan", "Peepal"],
+  "answer": 2
+},
+{
+  "question": "Which is the largest mammal in the world?",
+  "options": ["Elephant", "Blue Whale", "Giraffe", "Hippopotamus"],
+  "answer": 1
+},
+{
+  "question": "Which is the longest river in India?",
+  "options": ["Yamuna", "Godavari", "Ganga", "Krishna"],
+  "answer": 2
+},
+{
+  "question": "How many players are there in a cricket team?",
+  "options": ["9", "10", "11", "12"],
+  "answer": 2
+},
+{
+  "question": "Which is the largest country in the world by area?",
+  "options": ["Canada", "China", "Russia", "USA"],
+  "answer": 2
+},
+{
+  "question": "Which is the national fruit of India?",
+  "options": ["Apple", "Banana", "Mango", "Orange"],
+  "answer": 2
+}
+,
+{
+  "question": "Which is the national bird of India?",
+  "options": ["Peacock", "Parrot", "Eagle", "Sparrow"],
+  "answer": 0
+},
+{
+  "question": "Who wrote the Indian National Anthem?",
+  "options": ["Rabindranath Tagore", "Bankim Chandra Chatterjee", "Subhas Chandra Bose", "Mahatma Gandhi"],
+  "answer": 0
+},
+{
+  "question": "Which is the largest ocean in the world?",
+  "options": ["Indian Ocean", "Atlantic Ocean", "Pacific Ocean", "Arctic Ocean"],
+  "answer": 2
+},
+{
+  "question": "Which planet is known as the Red Planet?",
+  "options": ["Venus", "Mars", "Jupiter", "Mercury"],
+  "answer": 1
+},
+{
+  "question": "What is the national flower of India?",
+  "options": ["Rose", "Jasmine", "Lotus", "Sunflower"],
+  "answer": 2
+},
+{
+  "question": "Which country is known as the Land of the Rising Sun?",
+  "options": ["China", "Japan", "Thailand", "South Korea"],
+  "answer": 1
+},
+{
+  "question": "Who discovered gravity?",
+  "options": ["Albert Einstein", "Isaac Newton", "Galileo Galilei", "Thomas Edison"],
+  "answer": 1
+},
+{
+  "question": "How many states are there in India?",
+  "options": ["27", "28", "29", "30"],
+  "answer": 1
+},
+{
+  "question": "Which is the tallest mountain in the world?",
+  "options": ["K2", "Mount Everest", "Kangchenjunga", "Makalu"],
+  "answer": 1
+},
+{
+  "question": "Which festival is known as the Festival of Lights?",
+  "options": ["Holi", "Pongal", "Diwali", "Christmas"],
+  "answer": 2
+}
+]

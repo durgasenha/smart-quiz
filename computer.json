@@ -1,0 +1,152 @@
+[
+  {
+    "question": "What does CPU stand for?",
+    "options": ["Central Processing Unit", "Central Program Unit", "Computer Processing Unit", "Control Processing Unit"],
+    "answer": 0
+  },
+  {
+    "question": "Which device is used to enter text into a computer?",
+    "options": ["Monitor", "Keyboard", "Printer", "Speaker"],
+    "answer": 1
+  },
+  {
+    "question": "Which memory is temporary?",
+    "options": ["RAM", "ROM", "Hard Disk", "SSD"],
+    "answer": 0
+  },
+  {
+    "question": "Which part is known as the brain of the computer?",
+    "options": ["Monitor", "CPU", "Keyboard", "Mouse"],
+    "answer": 1
+  },
+  {
+    "question": "What does ROM stand for?",
+    "options": ["Read Only Memory", "Random Output Memory", "Read Output Memory", "Run Only Memory"],
+    "answer": 0
+  },
+  {
+    "question": "Which software controls the computer hardware?",
+    "options": ["MS Word", "Operating System", "Paint", "Browser"],
+    "answer": 1
+  },
+  {
+    "question": "Which of the following is an input device?",
+    "options": ["Mouse", "Monitor", "Printer", "Speaker"],
+    "answer": 0
+  },
+  {
+    "question": "Which company developed Windows?",
+    "options": ["Apple", "Google", "Microsoft", "IBM"],
+    "answer": 2
+  },
+  {
+    "question": "Which storage device has the largest capacity?",
+    "options": ["CD", "DVD", "Hard Disk", "Floppy Disk"],
+    "answer": 2
+  },
+  {
+    "question": "What does USB stand for?",
+    "options": ["Universal Serial Bus", "United System Bus", "Universal System Board", "Unique Serial Bus"],
+    "answer": 0
+  },
+  {
+    "question": "Which is an example of system software?",
+    "options": ["Windows", "Photoshop", "Chrome", "MS Word"],
+    "answer": 0
+  },
+  {
+    "question": "Which key is used to delete text to the left of the cursor?",
+    "options": ["Delete", "Backspace", "Enter", "Shift"],
+    "answer": 1
+  },
+  {
+    "question": "What is the full form of HTML?",
+    "options": ["Hyper Text Markup Language", "High Text Machine Language", "Hyper Transfer Markup Language", "Hyper Tool Markup Language"],
+    "answer": 0
+  },
+  {
+    "question": "Which language is mainly used for web page styling?",
+    "options": ["HTML", "CSS", "Python", "Java"],
+    "answer": 1
+  },
+  {
+    "question": "Which language is commonly used for web page interactivity?",
+    "options": ["JavaScript", "C", "C++", "Python"],
+    "answer": 0
+  },
+  {
+    "question": "Which of the following is a web browser?",
+    "options": ["Google Chrome", "Windows", "Linux", "Android"],
+    "answer": 0
+  },
+  {
+    "question": "Which company developed Java?",
+    "options": ["Sun Microsystems", "Microsoft", "Google", "IBM"],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol is used for comments in JavaScript?",
+    "options": ["//", "##", "<!-- -->", "**"],
+    "answer": 0
+  },
+  {
+    "question": "Which data structure follows FIFO?",
+    "options": ["Queue", "Stack", "Array", "Tree"],
+    "answer": 0
+  },
+  {
+    "question": "Which data structure follows LIFO?",
+    "options": ["Queue", "Stack", "Linked List", "Graph"],
+    "answer": 1
+  },
+  {
+    "question": "What is the default extension of HTML files?",
+    "options": [".html", ".css", ".js", ".java"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol is used to browse websites?",
+    "options": ["HTTP", "FTP", "SMTP", "POP3"],
+    "answer": 0
+  },
+  {
+    "question": "Which protocol is used to transfer files?",
+    "options": ["FTP", "HTTP", "HTTPS", "SMTP"],
+    "answer": 0
+  },
+  {
+    "question": "Which database language is used to retrieve data?",
+    "options": ["SQL", "HTML", "CSS", "XML"],
+    "answer": 0
+  },
+  {
+    "question": "Which SQL command is used to retrieve data?",
+    "options": ["SELECT", "INSERT", "DELETE", "UPDATE"],
+    "answer": 0
+  },
+  {
+    "question": "Which SQL command is used to add new data?",
+    "options": ["INSERT", "SELECT", "DROP", "ALTER"],
+    "answer": 0
+  },
+  {
+    "question": "Which symbol is used for IDs in CSS?",
+    "options": ["#", ".", "*", "&"],
+    "answer": 0
+  },
+  {
+    "question": "Which HTML tag is used to create a hyperlink?",
+    "options": ["<a>", "<p>", "<img>", "<div>"],
+    "answer": 0
+  },
+  {
+    "question": "Which company developed the Android operating system?",
+    "options": ["Google", "Apple", "Microsoft", "IBM"],
+    "answer": 0
+  },
+  {
+    "question": "What does WWW stand for?",
+    "options": ["World Wide Web", "World Web Wide", "Wide World Web", "Web World Wide"],
+    "answer": 0
+  }
+]
