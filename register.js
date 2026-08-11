@@ -12,76 +12,78 @@ registerForm.addEventListener("submit", async (e) => {
     const password = document.getElementById("password").value;
 
     const mutation = `
-    mutation Register($name:String!, $email:String!, $password:String!) {
-
-      insert_users_one(object:{
-        name:$name,
-        email:$email,
-        password:$password
-      }){
-
-        id
-        name
-
-      }
-
-    }
+        mutation Register(
+            $name: String!,
+            $email: String!,
+            $password: String!
+        ) {
+            insert_users_one(
+                object: {
+                    name: $name,
+                    email: $email,
+                    password: $password
+                }
+            ) {
+                id
+                name
+                email
+            }
+        }
     `;
 
-    try{
+    try {
 
-        const response = await fetch(HASURA_URL,{
+        const response = await fetch(HASURA_URL, {
 
-            method:"POST",
+            method: "POST",
 
-            headers:{
-                "Content-Type":"application/json",
-                "x-hasura-admin-secret":ADMIN_SECRET
+            headers: {
+                "Content-Type": "application/json",
+                "x-hasura-admin-secret": ADMIN_SECRET
             },
 
-            body:JSON.stringify({
-
-                query:mutation,
-
-                variables:{
-                    name,
-                    email,
-                    password
+            body: JSON.stringify({
+                query: mutation,
+                variables: {
+                    name: name,
+                    email: email,
+                    password: password
                 }
-
             })
 
         });
 
         const result = await response.json();
-        console.log(result);
 
-if (result.errors) {
-    console.error(result.errors);
-    alert(result.errors[0].message);
-    return;
-}
+        console.log("Hasura Response:", result);
 
-        if(result.data){
+        if (result.errors) {
+
+            console.error(result.errors);
+
+            alert(result.errors[0].message);
+
+            return;
+        }
+
+        if (result.data && result.data.insert_users_one) {
 
             alert("Registration Successful ✅");
 
-            window.location.href="login.html";
+            window.location.href = "login.html";
 
-        }else{
+        } else {
 
             alert("Registration Failed");
 
             console.log(result);
-
         }
 
-    }catch(error){
+    } catch (error) {
 
-        console.error(error);
+        console.error("Registration Error:", error);
 
         alert("Server Error");
-
     }
 
 });
