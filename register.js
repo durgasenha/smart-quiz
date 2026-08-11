@@ -1,6 +1,6 @@
 const HASURA_URL = "https://onlinequiz.hasura.app/v1/graphql";
 
-const ADMIN_SECRET = "YOUR_HASURA_SECRET";
+const ADMIN_SECRET = "hatOvwIGxCyRUQ9XR5HZdKovMSUE7CW1Hgy3aQunmMazZzUwM6ZKA2HMwyO5HNIq";
 
 const registerForm = document.getElementById("registerForm");
 
