@@ -1,5 +1,5 @@
 const HASURA_URL = "https://onlinequiz.hasura.app/v1/graphql";
-const ADMIN_SECRET = "hatOvwIGxCyRUQ9XR5HZdKovMSUE7CW1Hgy3aQunmMazZzUwM6ZKA2HMwyO5HNIq"; // புதிய Secret மட்டும் இங்கே போடு
+const ADMIN_SECRET = "hatOvwIGxCyRUQ9XR5HZdKovMSUE7CW1Hgy3aQunmMazZzUwM6ZKA2HMwyO5HNIq";
 
 const loginForm = document.getElementById("loginForm");
 
@@ -10,40 +10,43 @@ loginForm.addEventListener("submit", async (e) => {
     const password = document.getElementById("password").value;
 
     const query = `
-    query Login($email:String!, $password:String!) {
-      users(
-        where: {
-          email: { _eq: $email },
-          password: { _eq: $password }
+        query Login($email: String!, $password: String!) {
+            users(
+                where: {
+                    email: { _eq: $email },
+                    password: { _eq: $password }
+                }
+            ) {
+                id
+                name
+                email
+            }
         }
-      ) {
-        id
-        name
-        email
-      }
-    }
     `;
 
     try {
         const response = await fetch(HASURA_URL, {
             method: "POST",
+
             headers: {
                 "Content-Type": "application/json",
                 "x-hasura-admin-secret": ADMIN_SECRET
             },
+
             body: JSON.stringify({
-                query,
+                query: query,
                 variables: {
-                    email,
-                    password
+                    email: email,
+                    password: password
                 }
             })
         });
 
-    const result = await response.json();
-console.log(result);
+        const result = await response.json();
 
-        if (result.data && result.data.users.length > 0) {
+        console.log("Hasura Response:", result);
+
+        if (result.data && result.data.users && result.data.users.length > 0) {
 
             const user = result.data.users[0];
 
@@ -58,11 +61,11 @@ console.log(result);
         } else {
 
             alert("Invalid Email or Password");
-
         }
 
     } catch (error) {
-        console.error(error);
+
+        console.error("Login Error:", error);
         alert("Server Error");
     }
 });
